@@ -24,6 +24,20 @@ class Calculator extends PureComponent {
           })}>
           Clear
         </ button>
+        <button onClick={() =>
+          this.setState({
+            input: '',
+            error: ''
+          })}>
+          =
+        </ button>
+        <button onClick={() =>
+          this.setState({
+            input: '',
+            error: ''
+          })}>
+          +
+        </ button>
       </main >
     );
   }
